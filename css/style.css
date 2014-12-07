@@ -97,6 +97,7 @@ img{
 	height:70px;
 	padding-left: 20px;
 	padding-right: 20px;
+	-webkit-font-smoothing: antialiased;
 }
 .active{
 	color: #4c5058;
