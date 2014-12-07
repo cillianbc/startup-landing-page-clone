@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+	color: LightGray;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +48,62 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a{
+	color: LightGray;
+}
+/*Remove This 2 Styles before live*/
+
+/*Cillianbc Styles*/
+
+.top-nav{
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+.container{
+	width:60%;
+	/* height: 70px; */
+	margin:0 auto;
+}
+.container ul li { 
+	display: inline;
+	/* float: right; */
+ }
+
+ul.links{
+	float: right;
+	margin: auto;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+	/* list-style: none; */
+	/* text-decoration: none; */
+
+}
+.links li{
+	padding-right: 25px;
+	/* text-decoration: none; */
+}
+.links a{
+		list-style: none;
+		text-decoration: none;
+}
+img{
+	float: left;
+	width: 26px;
+	height:70px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.active{
+	color: #4c5058;
+	font-weight: 500;
+}
+.links a:hover{
+	cursor: pointer;
+	color: #333333;
+	font-weight: 500;
 }
