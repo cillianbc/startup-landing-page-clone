@@ -56,7 +56,11 @@ a{
 /*Remove This 2 Styles before live*/
 
 /*Cillianbc Styles*/
-
+.content{
+	padding: 0 0.938rem;
+	/* margin: 0 auto; */
+	min-width: 37.5rem;
+}
 .top-nav{
 	background-color: #fff;
 	position: fixed;
@@ -92,7 +96,7 @@ ul.links{
 		list-style: none;
 		text-decoration: none;
 }
-img{
+img.logo{
 	float: left;
 	width: 26px;
 	height:70px;
@@ -120,7 +124,7 @@ img{
 	overflow: auto;
 }
 .content{
-	width:60%;
+	width: 66%;
 	padding: 0 0.938rem;
 	margin: 0 auto;
 }
@@ -154,4 +158,77 @@ button{
 	padding: 1rem 1.5rem;
 	color: white;
 	font-size: 1.125rem;
+}
+.cases{
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+	width: 100%;
+}
+.devices ul{
+	display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    width:100px;
+}
+.devices li{
+	width: 25%;
+	display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+.cases h2{
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+.cases .content{
+	margin-top: 7.875rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    text-align: center;	
+}
+
+.devices{
+	width:33%;
+	display: inline-block;
+}
+footer{
+	text-align: center;
+	padding-top:30px;
+	padding-bottom: 40px;
+}
+ul.icons{
+	margin:0 auto;
+	width: 33%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.icons li{
+	width: 100%;
+	padding: 30px;
+	display: inline;
+
+}
+.join{
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+	color:black;
+	text-align: center;
+}
+.copy {
+font-size: 0.9rem;
+font-weight: 300;
+color: #838994;
 }
